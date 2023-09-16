@@ -1,0 +1,7 @@
+dataset: "cifar100"
+n_classes_coarse: 20
+n_classes_fine: 100
+checkpath: './checkpoints/emb_07041018_1.pth'
+classify_learning_rate: 0.001
+emb_learning_rate: 0.0008
+temperature: 0.05

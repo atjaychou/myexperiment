@@ -1,0 +1,9 @@
+dataset: "cifar100"
+n_classes_coarse: 20
+n_classes_fine: 100
+checkpath: '/data/Tian/zxj/cc/hccl/checkpoints/emb_07181454_1.pth'
+classify_learning_rate: 0.002
+emb_learning_rate: 0.0008
+temperature: 0.05
+train_cluster_path: './data/cluster_for_train_labels_dog_1500.txt'
+aug_cluster_path: './data/cluster_for_aug_labels_dog_1500.txt'

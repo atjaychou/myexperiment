@@ -1,0 +1,7 @@
+dataset: "cifar100"
+n_classes_coarse: 4
+n_classes_fine: 20
+checkpath: '/data/Tian/zxj/cc/hccl/voc/checkpoints/emb_07181001_1.pth'
+classify_learning_rate: 0.001
+emb_learning_rate: 0.0008
+temperature: 0.05
